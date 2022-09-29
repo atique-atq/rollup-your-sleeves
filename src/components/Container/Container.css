@@ -8,7 +8,6 @@
 }
 
 .text-container{
-    /* background-image: linear-gradient(to bottom right,#d9f4bc, #79b39f); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +47,7 @@
 }
 
 .cart-container{
-    border-top-left-radius: 50px 100px;
+    border-top-left-radius: 70px 40px;
     margin-left: 20px; 
-    background-image: linear-gradient(to right,#48C5F3, #5CD2C3);
+    background-image: radial-gradient(#5bbeb1,#DCF5FC);
 }
