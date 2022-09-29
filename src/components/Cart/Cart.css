@@ -1,0 +1,59 @@
+.person-information{
+    margin:20px 8px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.profile{
+    margin: 40px 0px 10px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0px;
+    border-radius: 10px;
+}
+
+.profile img{
+    width: 25%;
+    border-radius: 50px;
+}
+
+.profile-text{
+    line-height: 0.2;
+}
+
+.profile-text small{
+    color: rgb(131, 133, 134);
+}
+
+.skills{
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.skills p{
+    margin-left: 7%;
+    text-align:left;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    color: rgb(128, 127, 127);
+}
+
+
+.skill-set{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-set div{
+    margin-top: 0px;
+    font-size: 12px;
+    background-color: aliceblue;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}

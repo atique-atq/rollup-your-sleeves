@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Container.css'
 import Course from '../Course/Course';
-import img from '../../images/roll-up.jpg';
+import img from '../../images/roll-up1.jpg';
+import Cart from '../Cart/Cart';
 
 const Container = () => {
     const [courses, setCourses] = useState([]);
@@ -37,7 +38,7 @@ const Container = () => {
             </div>
 
             <div className='cart-container'>
-                <h1>This is for cart</h1>
+                <Cart></Cart>
             </div>
         </div>
     );

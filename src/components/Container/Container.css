@@ -15,7 +15,9 @@
 }
 
 .text-container img{
-    width: 12%;
+    /* width: 12%; */
+    height: 80px;
+    margin: 0;
 }
 
 .text{
@@ -36,7 +38,7 @@
 }
 
 .h-line{
-    margin: 10px;
+    margin: 0px;
 }
 
 .course-container{
