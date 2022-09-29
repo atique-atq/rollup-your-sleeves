@@ -3,14 +3,23 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import profilepic from '../../images/profilepic.jpg';
+import { addToDb, getFromDb } from '../../utilities/fakedb';
 
 const Cart = ({ totalTime }) => {
 
     const [breakValue, setBreakValue] = useState(0);
 
     const handleBreakToCart = (vacation) => {
+        //setting vacation value to db
+        addToDb(vacation);
+        //updating state
         setBreakValue(vacation);
     }
+
+    const getBreakValue = () => {
+        return getFromDb();
+    }
+
  
     return (
         <div className='cart'>
@@ -59,7 +68,7 @@ const Cart = ({ totalTime }) => {
                 <h3>Required Investing Time</h3>
                 <div className='timefield-container'>
                     <div className='timefield'>Course duration days: <span>{totalTime === 0? null : totalTime} </span> </div>
-                    <div className='timefield'>Reserve days  &nbsp;: <span>{breakValue === 0? null : breakValue} </span></div>
+                    <div className='timefield'>Reserve days  &nbsp;: <span>{getBreakValue()} </span></div>
                 </div>
             </div>
 
