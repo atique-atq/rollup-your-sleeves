@@ -1,15 +1,18 @@
 .container{
+    background-image: linear-gradient(to right,#d9f4bc, #79b39f);
     display: grid;
-    grid-template-columns: 4fr 1.5fr;
+    grid-template-columns: 4fr 2fr;
     margin: 0;
     padding: 0px;
+    background-color: white;
 }
 
 .text-container{
-    background-image: linear-gradient(to bottom right,#4B8773, #BCCBAC);
+    /* background-image: linear-gradient(to bottom right,#d9f4bc, #79b39f); */
     display: flex;
     align-items: center;
-    margin: 0px 5px 0px 50px;
+    justify-content: center;
+    margin: 0px;
 }
 
 .text-container img{
@@ -17,16 +20,24 @@
 }
 
 .text{
-    margin-left: 30px;
+    margin: 0px;
+    margin-left: 10px;
+    text-align: start;
 }
 
-.text h3{
+.text h2{
     color: white;
     font-weight: 700;
+    margin: 0px;
 }
+
 .text p{
     margin: 0;
     font-weight: 500;
+}
+
+.h-line{
+    margin: 10px;
 }
 
 .course-container{
@@ -34,4 +45,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     margin: 20px 5px 10px 50px;
+}
+
+.cart-container{
+    margin-left: 20px; 
+    background-image: linear-gradient(to right,rgba(46, 158, 143, 0.856), #5cd2c260);
 }

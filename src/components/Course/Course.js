@@ -7,11 +7,11 @@ const Course = ({ course }) => {
         <div className='course'>
             <img src={img} alt="Relevant Course"></img>
             <div className='course-info'>
-                <h5>{name}</h5>
+                <h4>{name}</h4>
                 <small>{description}</small>
-                <p><span className='orange-color'>Time Required : {duration} days </span> </p>
+                <h5 className='time-required'>Time Required : {duration} days</h5>
+                <button className='add-to-cart'> Add to List</button>
             </div>
-            
         </div>
     );
 };

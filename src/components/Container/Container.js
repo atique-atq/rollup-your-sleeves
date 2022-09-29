@@ -15,12 +15,15 @@ const Container = () => {
     return (
         <div className='container'>
             <div >
-                <div className='text-container'>
-                    <img src={img} alt=""></img>
-                    <div className='text'>
-                        <h3>Roll up your Sleeves</h3>
-                        <p><i>Plan, pick courses and fight back for your future career</i></p>
+                <div>
+                    <div className='text-container'>
+                        <img src={img} alt=""></img>
+                        <div className='text'>
+                            <h2>Roll up your Sleeves</h2>
+                            <p><i>Plan, pick courses and fight back for your future career</i></p>
+                        </div>
                     </div>
+                    <hr className='h-line'></hr>
                 </div>
                 
                 <div className='course-container'>

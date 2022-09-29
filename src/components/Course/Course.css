@@ -1,8 +1,11 @@
 .course{
     padding: 5px;
     width: 270px;
-    height: 420px;
+    height: 400px;
     background-color: white;
+    position: relative;
+    box-shadow: 5px 5px 5px #b6b5b5;
+    text-align: start;
 }
 
 .course img{
@@ -14,17 +17,36 @@
     padding: 10px;
 }
 
-.course-info h5{
+.course-info h4{
     color: #efa803;
     font-weight: 700;
+    margin: 0px;
 }
 
-.orange-color{
-    color: #5CD2C3;
+.time-required{
+    margin-top: 10px;
+    color: green;
     font-weight: 600;    
 }
 
 .course-info small{
+    color: rgb(117, 119, 117);
     font-size: 13px;
     line-height: 0.7;
+}
+
+.add-to-cart{
+    border-radius: 0px;
+    background-color: #5CD2C3;
+    color: black;
+    font-weight: 550;
+    width: 100%;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+}
+.add-to-cart:hover{
+    background-color: green;
 }
