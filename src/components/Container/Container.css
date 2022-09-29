@@ -48,6 +48,7 @@
 }
 
 .cart-container{
+    border-top-left-radius: 50px 100px;
     margin-left: 20px; 
-    background-image: linear-gradient(to right,rgba(46, 158, 143, 0.856), #5cd2c260);
+    background-image: linear-gradient(to right,#48C5F3, #5CD2C3);
 }
