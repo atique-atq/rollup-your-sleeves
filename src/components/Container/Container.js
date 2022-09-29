@@ -6,12 +6,19 @@ import Cart from '../Cart/Cart';
 
 const Container = () => {
     const [courses, setCourses] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => { 
         fetch('courses.json')
         .then(res => res.json())
         .then(data => setCourses(data))
     }, []);
+
+    const handleAddToCart = (selectedCourse) => {
+        console.log(selectedCourse);
+        const newCart = [...cart, selectedCourse];
+        setCart(newCart);
+    }
 
     return (
         <div className='container'>
@@ -32,6 +39,7 @@ const Container = () => {
                     courses.map(course => <Course
                         key={course.id}
                         course={course}
+                        handleAddToCart={handleAddToCart}
                     ></Course>)
                 }
                 </div>

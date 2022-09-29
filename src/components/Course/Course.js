@@ -1,7 +1,7 @@
 import React from 'react';
 import './Course.css';
 
-const Course = ({ course }) => {
+const Course = ({ course, handleAddToCart}) => {
     const {name, description, duration, img} = course;
     return (
         <div className='course'>
@@ -10,7 +10,8 @@ const Course = ({ course }) => {
                 <h4>{name}</h4>
                 <small>{description}</small>
                 <h5 className='time-required'>Time Required : {duration} days</h5>
-                <button className='add-to-cart'> Add to List</button>
+                <button onClick={() => handleAddToCart(course)}
+                className='add-to-cart'> Add to List</button>
             </div>
         </div>
     );
