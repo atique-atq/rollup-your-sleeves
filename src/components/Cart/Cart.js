@@ -19,7 +19,12 @@ const Cart = ({ totalTime }) => {
     }
 
     const getBreakValue = () => {
-        return getFromDb();
+        if (!breakValue) {
+            return getFromDb();  
+        }
+        else {
+            return breakValue;
+        }
     }
 
     //react toast message
