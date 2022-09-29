@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import profilepic from '../../images/profilepic.jpg';
 import { addToDb, getFromDb } from '../../utilities/fakedb';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = ({ totalTime }) => {
 
@@ -20,7 +22,9 @@ const Cart = ({ totalTime }) => {
         return getFromDb();
     }
 
- 
+    //react toast message
+    const notify = () => toast('Congratulations!! Best of luck for your new journey!');
+
     return (
         <div className='cart'>
             <div className='person-information'>
@@ -73,7 +77,9 @@ const Cart = ({ totalTime }) => {
             </div>
 
             <div>
-                <button className='enrolledment-button'> Get Enrolled </button>
+                <button className='enrolledment-button'
+                    onClick={notify}> Get Enrolled </button>
+                <ToastContainer />
             </div>
         </div>
     );
