@@ -6,7 +6,7 @@ import profilepic from '../../images/profilepic.jpg';
 
 const Cart = () => {
     return (
-        <div>
+        <div className='cart'>
             <div className='person-information'>
                 <div className='profile'>                
                     <img src={profilepic} alt="" ></img>
@@ -46,9 +46,19 @@ const Cart = () => {
                         <div>days</div>
                     </div>
                 </div>
-
             </div>
 
+            <div className='time-calculation'>
+                <h3>Required Investing Time</h3>
+                <div className='timefield-container'>
+                    <div className='timefield'>Course duration:</div>
+                    <div className='timefield'>Reserve days  &nbsp; &nbsp; &nbsp;:</div>
+                </div>
+            </div>
+
+            <div>
+                <button className='enrolledment-button'> Get Enrolled </button>
+            </div>
         </div>
     );
 };

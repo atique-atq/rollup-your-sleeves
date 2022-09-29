@@ -47,6 +47,7 @@
     left: 0;
     border: none;
 }
+
 .add-to-cart:hover{
     background-color: green;
 }

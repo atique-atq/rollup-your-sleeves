@@ -1,3 +1,8 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+
 .person-information{
     margin: 10px 8px;
     background-color: white;
@@ -80,4 +85,49 @@
     color: black;
     font-size: 12px;
     font-weight: 700;
+}
+
+.time-calculation{
+    background-color: rgb(159, 207, 249);
+    margin:10px 8px;
+    border-radius: 10px;
+}
+
+.time-calculation h3{
+    margin: 0px;
+    padding: 5px;
+    color: tomato;
+    font-weight: 700;
+    text-align: start;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.timefield-container{
+    padding-bottom: 10px;
+}
+
+.timefield{
+    background-color:aliceblue;
+    padding: 5px 20px;
+    margin: 10px 10px;
+    text-align: left;
+    color: #076b5e;
+    font-weight: 700;
+}
+
+.enrolledment-button{
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    border: none;
+    margin: 5px 5px 10px 5px;
+    width: 90%;
+    padding: 15px 5px;
+}
+
+.enrolledment-button:hover{
+    background-color: green;
 }
