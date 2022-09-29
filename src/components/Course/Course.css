@@ -1,5 +1,11 @@
 .course{
+    padding: 5px;
     width: 270px;
-    height: 480px;
+    height: 420px;
     background-color: white;
+}
+
+.course img{
+    width: 100%;
+    border-radius: 5px;
 }
