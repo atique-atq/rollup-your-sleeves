@@ -9,3 +9,22 @@
     width: 100%;
     border-radius: 5px;
 }
+
+.course-info{
+    padding: 10px;
+}
+
+.course-info h5{
+    color: #efa803;
+    font-weight: 700;
+}
+
+.orange-color{
+    color: #5CD2C3;
+    font-weight: 600;    
+}
+
+.course-info small{
+    font-size: 13px;
+    line-height: 0.7;
+}

@@ -3,42 +3,42 @@
     "id": "1",
     "name": "Essential Cyber Security",
     "description": "This course will help you to cope up with this 4IR era so that can handle or atleast be aware of all types of cyber attack like phishing, spaming, malware, hacking etc",
-    "duration": "10 days",
+    "duration": "10",
     "img": "https://ugc.futurelearn.com/uploads/images/58/9c/thumbnail_589ceb97-e201-460c-bc26-84a114232a20.jpg"
   },
   {
     "id": "2",
     "name": "Fullstack Development",
-    "description": "After completing this course you will be able to work on complete web development process like frontend, backend, database or unit testing with html,css,bootstrap,js, react, node, mongodb etc",
-    "duration": "120 days",
+    "description": "After finishing this couse you will able to work on complete web development process like frontend, backend, database or unit testing etc",
+    "duration": "120",
     "img": "https://ugc.futurelearn.com/uploads/images/81/e6/thumbnail_81e66b46-37d0-4c4d-bd2d-0f3e44c0220c.jpg"
   },
   {
     "id": "3",
     "name": "Frontend Designer",
-    "description": "In this course we will cover all necessary stuffs to be a frontend ninja. From very begining to the end we will cover html, css, css framework like bootstrap, tailwind css, javascript, jquery, react js and many more.",
-    "duration": "30 days",
+    "description": "We will cover all necessary stuffs to be a frontend ninja. Html, css, css framework like bootstrap, tailwind css, javascript, jquery, react js etc will be covered.",
+    "duration": "30",
     "img": "https://ugc.futurelearn.com/uploads/images/00/a9/thumbnail_00a9559c-83c3-487d-bf96-c0732521ee2c.jpg"
   },
   {
     "id": "4",
     "name": "Mobile Development",
     "description": "Keeping mind the present demand, we designed this course so that a novice coder can develop career with andriod, ios and cross platform development after finishing this course.",
-    "duration": "90 days",
+    "duration": "90",
     "img": "https://ugc.futurelearn.com/uploads/images/3a/28/thumbnail_3a28f483-64a3-4b50-888b-2784b5b59111.jpg"
   },
   {
     "id": "5",
     "name": "Big data analysis",
     "description": "In this fourth industrial revolution era, data analysis demand is increasing dramatically. Keeping mind that we designed this course what will help to become data analysis expert",
-    "duration": "120 days",
-    "img": "https://ugc.futurelearn.com/uploads/images/3a/28/thumbnail_3a28f483-64a3-4b50-888b-2784b5b59111.jpg"
+    "duration": "120",
+    "img": "https://ugc.futurelearn.com/uploads/images/67/a2/thumbnail_67a2f79e-cc5e-461b-9a21-24d9ead9802f.jpg"
   },
   {
     "id": "6",
     "name": "Graphics Designing",
     "description": "In this digital time everywhere a good graphics designer is like a diamond.After finishing this course our trainee can compete in - software, advertisement, newspaer, television etc.",
-    "duration": "30 days",
+    "duration": "30",
     "img": "https://ugc.futurelearn.com/uploads/images/fe/e6/thumbnail_fee681b3-e83b-4675-8122-4e97115b2790.jpg"
   }
 ]

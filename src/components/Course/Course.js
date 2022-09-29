@@ -7,7 +7,9 @@ const Course = ({ course }) => {
         <div className='course'>
             <img src={img} alt="Relevant Course"></img>
             <div className='course-info'>
-                <h4>{name}</h4>
+                <h5>{name}</h5>
+                <small>{description}</small>
+                <p><span className='orange-color'>Time Required : {duration} days </span> </p>
             </div>
             
         </div>

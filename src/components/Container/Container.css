@@ -26,15 +26,12 @@
 }
 .text p{
     margin: 0;
+    font-weight: 500;
 }
 
 .course-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
-    margin: 0px 5px 10px 50px;
-}
-
-.cart-container{
-
+    margin: 20px 5px 10px 50px;
 }
