@@ -87,6 +87,11 @@
     font-weight: 700;
 }
 
+.single-break:hover{
+    background-color: green;
+    color: white;
+}
+
 .time-calculation{
     background-color: rgb(159, 207, 249);
     margin:10px 8px;
@@ -115,11 +120,12 @@
     text-align: left;
     font-weight: 700;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: ;
 }
 
 .timefield span{
     color: tomato;
+    font-size: 18px;
 }
 
 .enrolledment-button{
