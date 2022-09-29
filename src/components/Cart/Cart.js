@@ -23,11 +23,32 @@ const Cart = () => {
                         <div>Frontend</div>
                         <div>API</div>   
                     </div>
+                </div>
+            </div>  
 
+            <div className='break-time'>
+                <h4> Add Reserve Days/Vacation</h4>
+                <div className='break-options'>
+                    <div className='single-break'>
+                        <div>05</div>
+                        <div>days</div>
+                    </div>
+                    <div className='single-break'>
+                        <div>10</div>
+                        <div>days</div>
+                    </div>
+                    <div className='single-break'>
+                        <div>15</div>
+                        <div>days</div>
+                    </div>
+                    <div className='single-break'>
+                        <div>20</div>
+                        <div>days</div>
+                    </div>
                 </div>
 
+            </div>
 
-            </div>  
         </div>
     );
 };

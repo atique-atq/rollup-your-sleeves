@@ -1,5 +1,5 @@
 .person-information{
-    margin:20px 8px;
+    margin: 10px 8px;
     background-color: white;
     border-radius: 10px;
 }
@@ -40,7 +40,6 @@
     color: rgb(128, 127, 127);
 }
 
-
 .skill-set{
     display: flex;
     justify-content: space-around;
@@ -56,4 +55,29 @@
     align-items: center;
     padding: 10px;
     border-radius: 50px;
+}
+
+.break-time{
+    background-color: white;
+    margin:1px 8px;
+    border-radius: 10px;
+}
+
+.break-options{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 5px 5px 5px;
+}
+
+.single-break{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #5CD2C3;
+    border-radius: 50px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
 }
