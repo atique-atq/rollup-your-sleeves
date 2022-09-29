@@ -15,10 +15,11 @@ const Container = () => {
     }, []);
 
     const handleAddToCart = (selectedCourse) => {
-        console.log(selectedCourse);
         const newCart = [...cart, selectedCourse];
         setCart(newCart);
     }
+
+    const totalTime = cart.reduce((previousValue, currentValue) => previousValue + parseInt(currentValue.duration), 0);
 
     return (
         <div className='container'>
@@ -35,18 +36,18 @@ const Container = () => {
                 </div>
                 
                 <div className='course-container'>
-                {
-                    courses.map(course => <Course
-                        key={course.id}
-                        course={course}
-                        handleAddToCart={handleAddToCart}
-                    ></Course>)
-                }
+                    {
+                        courses.map(course => <Course
+                            key={course.id}
+                            course={course}
+                            handleAddToCart={handleAddToCart}
+                        ></Course>)
+                    }
                 </div>
             </div>
 
             <div className='cart-container'>
-                <Cart></Cart>
+                <Cart totalTime={totalTime}></Cart>
             </div>
         </div>
     );

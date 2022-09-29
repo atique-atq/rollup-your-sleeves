@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
 import profilepic from '../../images/profilepic.jpg';
 
-const Cart = () => {
+const Cart = ({ totalTime }) => {
+ 
     return (
         <div className='cart'>
             <div className='person-information'>
@@ -51,8 +52,8 @@ const Cart = () => {
             <div className='time-calculation'>
                 <h3>Required Investing Time</h3>
                 <div className='timefield-container'>
-                    <div className='timefield'>Course duration:</div>
-                    <div className='timefield'>Reserve days  &nbsp; &nbsp; &nbsp;:</div>
+                    <div className='timefield'>Course duration: <span>{totalTime} days</span> </div>
+                    <div className='timefield'>Reserve days  &nbsp; &nbsp; &nbsp;: <span></span> </div>
                 </div>
             </div>
 
